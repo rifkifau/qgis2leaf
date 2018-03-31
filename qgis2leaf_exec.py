@@ -159,7 +159,7 @@ th {
 		<title>""" + (webpage_name).encode('utf-8') + """</title>"""
 		base += """
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />"""
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />"""
 		if cluster_set:
 			base+= """
 		<link rel="stylesheet" href="css/MarkerCluster.css" />
@@ -171,9 +171,9 @@ th {
 		<link rel="stylesheet" href="css/label.css" />"""
 		if address == True:
 			base += """
-		<link rel="stylesheet" href="http://k4r573n.github.io/leaflet-control-osm-geocoder/Control.OSMGeocoder.css" />	"""
+		<link rel="stylesheet" href="https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/Control.OSMGeocoder.css" />	"""
 		base +="""
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 		<script src="js/leaflet-hash.js"></script>"""
 		if labels:
 			base += """
@@ -182,7 +182,7 @@ th {
 		<script src="js/Autolinker.min.js"></script>"""
 		if address == True:
 			base +="""
-		<script src="http://k4r573n.github.io/leaflet-control-osm-geocoder/Control.OSMGeocoder.js"></script>"""
+		<script src="https://rawgit.com/k4r573n/leaflet-control-osm-geocoder/master/Control.OSMGeocoder.js"></script>"""
 		if cluster_set:
 			base +="""
 		<script src="js/leaflet.markercluster.js"></script>"""
